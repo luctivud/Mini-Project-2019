@@ -64,7 +64,7 @@ body > h1, body > p {
   color: #ffffff;
 }
 .card-container .card:nth-child(1) .card-count, .card-container .card:nth-child(1) .card-footer {
-  background-image: linear-gradient(90deg, #f6671f, #c01b1c);
+  background-image: linear-gradient(90deg, #343a40, #6c7781);
 }
 .card-container .card:nth-child(2) .card-count, .card-container .card:nth-child(2) .card-footer {
   background-image: linear-gradient(90deg, #fec22f, #ea9826);

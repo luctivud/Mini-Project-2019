@@ -15,14 +15,29 @@ body > h1, body > p {
 }
 
 .section-1{
-  background-image: linear-gradient(rgba(61, 61, 61, 0.6),rgba(56, 56, 56, 0.6)),url(assets/images/abesec.jpg);
+  background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6)),url(assets/images/abesec.jpg);
   background-size: cover;
   background-position: center;
-  height: 105vh;
+  height: 90vh;
+  animation: step-start;
 }
 .section-1-1{
   position: relative;
-  top:60%;
+  top:25%;
+}
+
+.con-1-2 h3{
+  color:red;
+  font-size: 200%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px black;
+}
+
+.con-1-1{
+  color: white;
+  font-size: 300%;  
+  letter-spacing: 2px;
 }
 
 .card-container {
@@ -44,6 +59,10 @@ body > h1, body > p {
   height: 200px;
   padding: 20px 0px;
 }
+.card-count-container{
+  background-image: url(assets/images/atten.png);
+  background-size: auto;
+}
 .card-container .card .card-count {
   font-weight: bold;
   font-size: 100px;
@@ -61,6 +80,9 @@ body > h1, body > p {
   box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   transition: all 0.2s ease-in-out;
+}
+.card{
+  max-width:90%;
 }
 .card-container .card .card-content {
   padding: 20px;

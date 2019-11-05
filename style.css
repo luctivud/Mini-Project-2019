@@ -14,6 +14,17 @@ body > h1, body > p {
   text-align: center;
 }
 
+.section-1{
+  background-image: linear-gradient(rgba(61, 61, 61, 0.6),rgba(56, 56, 56, 0.6)),url(hero.png);
+  background-size: cover;
+  background-position: center;
+  height: 105vh;
+}
+.section-1-1{
+  position: relative;
+  top:60%;
+}
+
 .card-container {
   display: flex;
 }

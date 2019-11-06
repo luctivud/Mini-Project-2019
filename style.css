@@ -179,12 +179,12 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    background-image: linear-gradient(90deg, #f6671f, #c01b1c);
     margin-bottom: 50px;
     text-transform: uppercase;
 }
 #footer {
-    background: #007b5e !important;
+  background-image: linear-gradient(90deg, #f6671f, #c01b1c)done !important;
 }
 #footer h5{
 	padding-left: 10px;

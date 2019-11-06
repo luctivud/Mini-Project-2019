@@ -6,14 +6,21 @@
 
 body {
   font-family: Montserrat,sans-serif;
-  color: white;
-  background-color: #343a40;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
   background-size: cover;
 }
 body > h1, body > p {
   text-align: center;
 }
 
+.bg-orange{
+  background-image: linear-gradient(90deg, #f6671f, #c01b1c);
+}
+
+.navbar-dark{
+  background-color: #f6671f;
+}
 .section-1{
   background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6)),url(assets/images/abesec.jpg);
   background-size: cover;
@@ -81,6 +88,10 @@ body > h1, body > p {
 .card{
   max-width:90%;
 }
+.card-count-container{
+  background-image: url(assets/images/editedaudi.jpeg);
+  background-size: auto;
+}
 .card-container .card .card-content {
   padding: 20px;
   padding-top: 0px;
@@ -90,11 +101,11 @@ body > h1, body > p {
   text-align: center;
 }
 .card-container .card .card-footer {
-  padding: 20px;
+  padding: 10px;
   color: #ffffff;
 }
 .card-container .card:nth-child(1) .card-count, .card-container .card:nth-child(1) .card-footer {
-  background-image: linear-gradient(90deg, #343a40, #6c7781);
+  background-image: linear-gradient(90deg, #f6671f, #c01b1c);
 }
 .card-container .card:nth-child(2) .card-count, .card-container .card:nth-child(2) .card-footer {
   background-image: linear-gradient(90deg, #fec22f, #ea9826);
@@ -110,10 +121,16 @@ body > h1, body > p {
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
  .flip-card {
   background-color: transparent;
-  width: 300px;
+  width: 200px;
   height: 200px;
   border: 1px solid #f1f1f1;
+  border-radius: 50%;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card > img{
+  border: 0px solid #f1f1f1;
+  border-radius: 50%;
 }
 
 /* This container is needed to position the front and back side */
@@ -186,7 +203,7 @@ section .section-title {
 	padding: 3px 0;
 }
 #footer ul.social li a i {
-    margin-right: 5px;
+  margin-right: 5px;
 	font-size:25px;
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;

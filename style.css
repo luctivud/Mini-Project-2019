@@ -23,12 +23,12 @@ body > h1, body > p {
 }
 .section-1{
   background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6)),url(assets/images/abesec.jpg);
-  clip-path: polygon(0 0, 100% 0%, 100% 92%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 103.5vh;
   animation: step-start;
 }
 .section-1-1{

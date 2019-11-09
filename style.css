@@ -25,6 +25,8 @@ body > h1, body > p {
   background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6)),url(assets/images/abesec.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   height: 90vh;
   animation: step-start;
 }

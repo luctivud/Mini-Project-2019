@@ -26,13 +26,21 @@ body > h1, body > p {
 .navbar-dark{
   background-color: #f6671f;
 }
-.section-1{
-  background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6)),url(assets/images/abesec.jpg);
-  clip-path: polygon(0% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%);
-  background-size: cover;
+
+.ls-auto{
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.jarallax{
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-1{
+  background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6)),url(assets/images/abesec.jpg);
+  clip-path: polygon(0% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%);
   height: 103.5vh;
   animation: step-start;
 }

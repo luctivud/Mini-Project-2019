@@ -1,10 +1,10 @@
 @font-face {
   font-family: Montserrat;
-  src: url(assets/fonts/Montserrat-Regular.ttf);
+  src: url(../fonts/Montserrat-Regular.ttf);
 }
 @font-face {
   font-family: Cambay-Regular;
-  src: url(assets/fonts/Cambay-Regular.ttf);
+  src: url(../fonts/Cambay-Regular.ttf);
 }
 
 *{
@@ -43,7 +43,7 @@ body > h1, body > p {
   background-size: cover;
 }
 .section-1{
-  background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6)),url(assets/images/abesec.jpg);
+  background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6)),url(../images/abesec.jpg);
   clip-path: polygon(0% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%);
   height: 103.5vh;
   animation: step-start;
@@ -113,7 +113,7 @@ body > h1, body > p {
   max-width:90%;
 }
 .card-count-container{
-  background-image: url(assets/images/editedaudi.jpeg);
+  background-image: url(../images/abesaudi.jpg);
   background-size: auto;
 }
 .card-container .card .card-content {

@@ -24,8 +24,8 @@ body > h1, body > p {
 }
 .h-10{
   position: relative;
-  top:-40px;
-  height:10vh;
+  top:-50px;
+  height:12vh;
   z-index: -1000;
 }
 .bg-orange{

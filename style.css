@@ -2,6 +2,10 @@
   font-family: Montserrat;
   src: url(assets/fonts/Montserrat-Regular.ttf);
 }
+@font-face {
+  font-family: Cambay-Regular;
+  src: url(assets/fonts/Cambay-Regular.ttf);
+}
 
 *{
   margin: 0;
@@ -10,7 +14,7 @@
 }
 
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: Cambay-Regular, Montserrat, sans-serif;
   color: rgb(0, 0, 0);
   background-color: #ffffff;
   background-size: cover;

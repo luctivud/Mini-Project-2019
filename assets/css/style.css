@@ -87,9 +87,8 @@ body > h1, body > p {
   letter-spacing: 2px;
 }
 
-.motivation{
-  height: 100vh;
-}
+
+/* 
 
 .card-container {
   display: flex;
@@ -160,11 +159,16 @@ body > h1, body > p {
 .card-container .card:hover .card-count {
   width: 160px;
   height: 160px;
-}
+} 
 
+*/
+
+.motivation{
+  height: 100vh;
+}
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
  .flip-card {
-  background-color: transparent;
+   background-color: transparent;
   width: 200px;
   height: 200px;
   border: 1px solid #f1f1f1;

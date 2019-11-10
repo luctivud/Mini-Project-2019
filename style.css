@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(assets/fonts/Montserrat-Regular.ttf);
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +10,7 @@
 }
 
 body {
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   color: rgb(0, 0, 0);
   background-color: #ffffff;
   background-size: cover;

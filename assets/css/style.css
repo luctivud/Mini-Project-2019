@@ -42,11 +42,15 @@ body > h1, body > p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.section-1{
-  background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6)),url(../images/abesec.jpg);
+.parallax-mirror{
   clip-path: polygon(0% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%);
+  background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6));
+  z-index:10;
+}
+
+
+.section-1{
   height: 103.5vh;
-  animation: step-start;
 }
 .section-1-1{
   position: relative;

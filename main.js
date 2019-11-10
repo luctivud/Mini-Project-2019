@@ -1,12 +1,12 @@
 // object-fit polyfill run
-objectFitImages();
+// objectFitImages();
 
 /* init Jarallax */
-jarallax(document.querySelectorAll('.jarallax'));
+// jarallax(document.querySelectorAll('.jarallax'));
 
-jarallax(document.querySelectorAll('.jarallax-keep-img'), {
-    keepImg: true,
-});
+// jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+//     keepImg: true,
+// });
 
 // document.addEventListener("DOMContentLoaded", function(event) { 
 //     window.addEventListener('scroll', function() {
@@ -33,3 +33,4 @@ jarallax(document.querySelectorAll('.jarallax-keep-img'), {
     
 //     });
     
+var rellax = new Rellax('.rellax');

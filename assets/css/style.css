@@ -44,7 +44,9 @@ body > h1, body > p {
   letter-spacing: 5px;
   font-weight: bold;
 }
-
+.mt-15{
+  margin-top: 15rem;
+}
 .jarallax{
   background-position: center;
   background-attachment: fixed;
@@ -189,12 +191,12 @@ body > h1, body > p {
   margin-bottom:10px;
 }
 .profile-card .profile-img img{
-  width:100%;
+  width:70%;
   height:auto;
 }
 .profile-card .profile-content::before{
   content: "";
-  position:absolute;
+  position: absolute;
   top:0;
   left:0;
   width:50%;
@@ -250,7 +252,7 @@ body > h1, body > p {
 }
 .profile-card .profile-content .title{
   font-size:24px;
-  color:#333;
+  color:rgb(255, 255, 255);
   opacity:0;
   letter-spacing:2px;
   text-transform:uppercase;
@@ -298,6 +300,7 @@ body > h1, body > p {
   text-align: center;
   border-radius:5px;
   background-color: #fff;
+}
 
 
 
@@ -305,7 +308,8 @@ body > h1, body > p {
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
-    padding: 60px 0;
+    padding: 50px 0;
+    padding-top: 10px;
 }
 
 section .section-title {

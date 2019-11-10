@@ -63,7 +63,9 @@ body > h1, body > p {
   background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6));
   z-index:10;
 }
-
+.hvh-80{
+  height: 80vh;
+}
 
 .section-1{
   height: 104vh;
@@ -88,7 +90,7 @@ body > h1, body > p {
 }
 
 
-/* 
+
 
 .card-container {
   display: flex;
@@ -161,7 +163,7 @@ body > h1, body > p {
   height: 160px;
 } 
 
-*/
+
 
 .motivation{
   height: 100vh;

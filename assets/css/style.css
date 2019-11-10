@@ -42,15 +42,22 @@ body > h1, body > p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.clip-down{
+  clip-path: polygon(0% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%);
+  height:30vh;
+  z-index:-1000;
+}
 .parallax-mirror{
   clip-path: polygon(0% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%);
+  /* clip-path: polygon(50% 0%, 100% 5%, 100% 95%, 50% 100%, 0 95%, 0 5%); */
+  /* clip-path: polygon(51% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0); */
   background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6));
   z-index:10;
 }
 
 
 .section-1{
-  height: 103.5vh;
+  height: 104vh;
 }
 .section-1-1{
   position: relative;

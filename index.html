@@ -64,61 +64,83 @@
     </div>
     <!---------------------MAIN------------------>
 
-    
-<div id="curve" class="card">
+<!--     EXAMPLE CARD COOL EFFECT CODEPEN
+<div id="curve" class="card hover-shadow">
     <div class="footer">
         <svg id="curve">
             <path id="p" d="M0,200 Q80,100 400,200 V150 H0 V50" transform="translate(0 300)" />
             <rect id="dummyRect" x="0" y="0" height="450" width="400"
-            fill="transparent" />
+            fill="transparent" /> -->
             <!-- slide up-->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,100 400,50 V150 H0 V50" fill="freeze" begin="dummyRect.mouseover" end="dummyRect.mouseout" dur="0.1s" id="bounce1" />
+            <!-- <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,100 400,50 V150 H0 V50" fill="freeze" begin="dummyRect.mouseover" end="dummyRect.mouseout" dur="0.1s" id="bounce1" /> -->
             <!-- slide up and curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,0 400,50 V150 H0 V50" fill="freeze" begin="bounce1.end" end="dummyRect.mouseout" dur="0.15s" id="bounce2" />
+            <!-- <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,0 400,50 V150 H0 V50" fill="freeze" begin="bounce1.end" end="dummyRect.mouseout" dur="0.15s" id="bounce2" /> -->
             <!-- slide down and curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,80 400,50 V150 H0 V50" fill="freeze" begin="bounce2.end" end="dummyRect.mouseout" dur="0.15s" id="bounce3" />
+            <!-- <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,80 400,50 V150 H0 V50" fill="freeze" begin="bounce2.end" end="dummyRect.mouseout" dur="0.15s" id="bounce3" /> -->
             <!-- slide down and curve out -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,45 400,50 V150 H0 V50" fill="freeze" begin="bounce3.end" end="dummyRect.mouseout" dur="0.1s" id="bounce4" />
+            <!-- <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,45 400,50 V150 H0 V50" fill="freeze" begin="bounce3.end" end="dummyRect.mouseout" dur="0.1s" id="bounce4" /> -->
             <!-- curve in -->
-            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,50 400,50 V150 H0 V50" fill="freeze" begin="bounce4.end" end="dummyRect.mouseout" dur="0.05s" id="bounce5" />
-
-            <animate xlink:href="#p" attributeName="d" to="M0,200 Q80,100 400,200 V150 H0 V50" fill="freeze" begin="dummyRect.mouseout" dur="0.15s" id="bounceOut" />
-        </svg>
+            <!-- <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,50 400,50 V150 H0 V50" fill="freeze" begin="bounce4.end" end="dummyRect.mouseout" dur="0.05s" id="bounce5" /> -->
+            <!-- <animate xlink:href="#p" attributeName="d" to="M0,200 Q80,100 400,200 V150 H0 V50" fill="freeze" begin="dummyRect.mouseout" dur="0.15s" id="bounceOut" /> -->
+        <!-- </svg>
         <div class="info">
             <div class="name">Filan Fisteku</div>
             <div class="job">Architect Manager</div>
         </div>
     </div>
     <div class="card-blur"></div>
-</div>
+</div> -->
 
 
 
     <div class="container hvh-60">
         <div class="row d-flex align-bottom mt-5">
             <div class="col-xs-4 d-flex mx-auto p-3">
-                <div class="card border-secondary hover-shadow" style="width:100%; max-width:250px; height: 250px;">
-                    <img class="card-img-top" src="assets/images/abesaudi.jpg" alt="Card image" style="width:100%">
-                    <h2>ABESEC</h2>
+                <div id="curve" class="card hover-shadow">
                     <a href="#" class="stretched-link"></a>
+                    <div class="footer">
+                        <div class="info">
+                            <div class="name">Attendance</div>
+                            <div class="job">Send to Resolve</div>
+                        </div>
+                    </div>
+                    <div class="card-blur"></div>
                 </div>
             </div>
             <div class="col-xs-4 d-flex mx-auto p-3">
-                <div class="card border-secondary hover-shadow" style="width:100%; max-width:250px;">
-                    <img class="card-img-top" src="assets/images/attendance.png" alt="Card image" style="width:100%">
+                <div id="curve" class="card hover-shadow">
                     <a href="#" class="stretched-link"></a>
+                    <div class="footer">
+                        <div class="info">
+                            <div class="name">Auditorium</div>
+                            <div class="job">Send to Resolve</div>
+                        </div>
+                    </div>
+                    <div class="card-blur"></div>
                 </div>
             </div>
             <div class="col-xs-4 d-flex mx-auto p-3">
-                <div class="card border-secondary hover-shadow" style="width:100%; max-width:250px;">
-                    <img class="card-img-top" src="assets/images/abesaudi.jpg" alt="Card image" style="width:100%">
+                <div id="curve" class="card hover-shadow">
                     <a href="#" class="stretched-link"></a>
+                    <div class="footer">
+                        <div class="info">
+                            <div class="name">Ground</div>
+                            <div class="job">Send to Resolve</div>
+                        </div>
+                    </div>
+                    <div class="card-blur"></div>
                 </div>
             </div>
             <div class="col-xs-4 d-flex mx-auto p-3">
-                <div class="card border-secondary hover-shadow" style="width:100%; max-width:250px;">
-                    <img class="card-img-top" src="assets/images/abesaudi.jpg" alt="Card image" style="width:100%">
+                <div id="curve" class="card hover-shadow">
                     <a href="#" class="stretched-link"></a>
+                    <div class="footer">
+                        <div class="info">
+                            <div class="name">Seminar Hall</div>
+                            <div class="job">Send to Resolve</div>
+                        </div>
+                    </div>
+                    <div class="card-blur"></div>
                 </div>
             </div>
         </div>
@@ -130,7 +152,7 @@
     <!---------------------/MAIN------------------>
 
     <!---------------------Motivation------------------>
-    <div class="container mt-5 align-middle clearfix motivation">
+    <!-- <div class="container mt-5 align-middle clearfix motivation">
         <div class="row ">
             <div class="col-md-4 bg-orange">
                 <div class="row h-100">
@@ -144,7 +166,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quisquam sapiente veniam ipsa consectetur magnam, odit, fuga delectus reprehenderit deserunt dolor autem ipsum inventore. Vel dicta minima, recusandae corrupti animi quis quisquam aspernatur dolor repudiandae! Sit dolore, ab minima saepe doloremque adipisci error nulla voluptas.
             </div>
         </div>
-    </div>
+    </div> -->
     <!---------------------/Motivation------------------>
 
 

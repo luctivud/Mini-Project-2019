@@ -51,7 +51,7 @@
     <!-- filler for bg --> <div class="bg-dark h-10"></div>
 
     <!-------------------sticky-Background-------------------->
-    <nav class="bg-orange clip-down sticky-top" style="opacity: 0;">
+    <nav class="bg-orange clip-down sticky-top">
     </nav>
     <!-------------------/sticky-Background-------------------->
     <div  class="container" >
@@ -63,33 +63,66 @@
         </div>
     </div>
     <!---------------------MAIN------------------>
-    <div class="container hvh-80">
-        <div class="row">
+
+    
+<div id="curve" class="card">
+    <div class="footer">
+        <svg id="curve">
+            <path id="p" d="M0,200 Q80,100 400,200 V150 H0 V50" transform="translate(0 300)" />
+            <rect id="dummyRect" x="0" y="0" height="450" width="400"
+            fill="transparent" />
+            <!-- slide up-->
+            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,100 400,50 V150 H0 V50" fill="freeze" begin="dummyRect.mouseover" end="dummyRect.mouseout" dur="0.1s" id="bounce1" />
+            <!-- slide up and curve in -->
+            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,0 400,50 V150 H0 V50" fill="freeze" begin="bounce1.end" end="dummyRect.mouseout" dur="0.15s" id="bounce2" />
+            <!-- slide down and curve in -->
+            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,80 400,50 V150 H0 V50" fill="freeze" begin="bounce2.end" end="dummyRect.mouseout" dur="0.15s" id="bounce3" />
+            <!-- slide down and curve out -->
+            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,45 400,50 V150 H0 V50" fill="freeze" begin="bounce3.end" end="dummyRect.mouseout" dur="0.1s" id="bounce4" />
+            <!-- curve in -->
+            <animate xlink:href="#p" attributeName="d" to="M0,50 Q80,50 400,50 V150 H0 V50" fill="freeze" begin="bounce4.end" end="dummyRect.mouseout" dur="0.05s" id="bounce5" />
+
+            <animate xlink:href="#p" attributeName="d" to="M0,200 Q80,100 400,200 V150 H0 V50" fill="freeze" begin="dummyRect.mouseout" dur="0.15s" id="bounceOut" />
+        </svg>
+        <div class="info">
+            <div class="name">Filan Fisteku</div>
+            <div class="job">Architect Manager</div>
+        </div>
+    </div>
+    <div class="card-blur"></div>
+</div>
+
+
+
+    <div class="container hvh-60">
+        <div class="row d-flex align-bottom mt-5">
             <div class="col-xs-4 d-flex mx-auto p-3">
-                <div class="card" style="width:100%; max-width:250px;">
+                <div class="card border-secondary hover-shadow" style="width:100%; max-width:250px; height: 250px;">
+                    <img class="card-img-top" src="assets/images/abesaudi.jpg" alt="Card image" style="width:100%">
+                    <h2>ABESEC</h2>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="col-xs-4 d-flex mx-auto p-3">
+                <div class="card border-secondary hover-shadow" style="width:100%; max-width:250px;">
+                    <img class="card-img-top" src="assets/images/attendance.png" alt="Card image" style="width:100%">
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+            <div class="col-xs-4 d-flex mx-auto p-3">
+                <div class="card border-secondary hover-shadow" style="width:100%; max-width:250px;">
                     <img class="card-img-top" src="assets/images/abesaudi.jpg" alt="Card image" style="width:100%">
                     <a href="#" class="stretched-link"></a>
                 </div>
             </div>
             <div class="col-xs-4 d-flex mx-auto p-3">
-                <div class="card" style="width:100%; max-width:250px;">
-                    <img class="card-img-top" src="assets/images/abesaudi.jpg" alt="Card image" style="width:100%">
-                    <a href="#" class="stretched-link"></a>
-                </div>
-            </div>
-            <div class="col-xs-4 d-flex mx-auto p-3">
-                <div class="card" style="width:100%; max-width:250px;">
-                    <img class="card-img-top" src="assets/images/abesaudi.jpg" alt="Card image" style="width:100%">
-                    <a href="#" class="stretched-link"></a>
-                </div>
-            </div>
-            <div class="col-xs-4 d-flex mx-auto p-3">
-                <div class="card" style="width:100%; max-width:250px;">
+                <div class="card border-secondary hover-shadow" style="width:100%; max-width:250px;">
                     <img class="card-img-top" src="assets/images/abesaudi.jpg" alt="Card image" style="width:100%">
                     <a href="#" class="stretched-link"></a>
                 </div>
             </div>
         </div>
+        <hr>
     </div>
     <hr>
         <!-----------------section2--------------->

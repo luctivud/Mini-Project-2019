@@ -44,6 +44,9 @@ body > h1, body > p {
   letter-spacing: 5px;
   font-weight: bold;
 }
+.mt-7{
+  margin-top: 7rem;
+}
 .mt-15{
   margin-top: 15rem;
 }

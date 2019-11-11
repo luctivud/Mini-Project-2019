@@ -39,7 +39,10 @@ body > h1, body > p {
 .navbar-dark{
   background-color: #f6671f;
 }
-
+/* hr{
+  height: 22px;
+  border: 2px black;
+} */
 .ls-auto{
   letter-spacing: 5px;
   font-weight: bold;

@@ -183,7 +183,10 @@ body > h1, body > p {
 
 
 
-
+.sized{
+  max-width: 300px;
+  max-height:300px;
+}
 
 .profile-card{
   position:relative;
@@ -191,7 +194,7 @@ body > h1, body > p {
   margin-bottom:10px;
 }
 .profile-card .profile-img img{
-  width:70%;
+  width:100%;
   height:auto;
 }
 .profile-card .profile-content::before{
@@ -242,17 +245,36 @@ body > h1, body > p {
 }
 .profile-card .profile-content{
   position: absolute;
+  border: 1px solid black;
   top:0;
   left:0;
+  /* max-height: 300px;
+  max-width:210px; */
   width:100%;
   height:100%;
   padding:50% 4%;
   text-align: center;
-  background-image: linear-gradient(rgba(61, 61, 61, 0.7),rgba(56, 56, 56, 0.6));
+  background-image: linear-gradient(rgba(61, 61, 61, 0.1),rgba(56, 56, 56, 0.1));
+  transition: all 4s ease-in;
 }
+/* .profile-card:before .profile-content:before{
+  content: '';
+  display: block;
+  position: absolute;
+  height: 0%;
+  width: 100%;
+  bottom: 0;
+  transition: height 0.5s ease-out;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+  } */
+/* .profile-content:hover{
+  background-image: linear-gradient(rgba(131, 46, 46, 0.6),rgba(56, 56, 56, 0.6 ));
+} */
 .profile-card .profile-content .title{
   font-size:24px;
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(255, 255, 255, 0.6));
+  background-size: 10vw;
   opacity:0;
   letter-spacing:2px;
   text-transform:uppercase;

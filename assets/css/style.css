@@ -59,6 +59,9 @@ body > h1, body > p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.fc-red{
+  color:red;
+}
 .clip-down{
   clip-path: polygon(0% 0%, 100% 0, 100% 95%, 50% 100%, 0 95%);
   height:35vh;
@@ -80,15 +83,13 @@ body > h1, body > p {
 }
 .section-1-1{
   position: relative;
-  top:25%;
+  top:30%;
 }
 
-.con-1-2 h3{
-  color:red;
-  font-size: 200%;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 2px black;
+.con-1-2{
+  letter-spacing: 6px;
+  /* text-transform: uppercase; */
+  text-shadow: 1px 1px 1px #ffffff21;
 }
 
 .con-1-1{

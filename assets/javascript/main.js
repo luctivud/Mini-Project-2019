@@ -1,3 +1,21 @@
+// var i = 0;
+// var txt = 'Welcome to ABESEC Help';
+// var speed = 50;
+// const classA = document.getElementById("welcome");
+// function typeWriter() {
+//   if (i < txt.length) {
+//     classA.innerHTML += txt.charAt(i);
+//     i++;
+//     setTimeout(typeWriter, speed);
+//   }
+// }
+// typeWriter();
+// import Typed from 'typed.js';
+//     var options = {
+//     strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+//     typeSpeed: 40
+//     };
+//     var typed = new Typed('.con-1-1', options);
 // object-fit polyfill run
 // objectFitImages();
 

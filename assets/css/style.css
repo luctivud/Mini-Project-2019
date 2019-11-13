@@ -142,13 +142,13 @@ body > h1, body > p {
   background-image: url(../images/abesaudi.jpg);
 }
 .bg-atte{
-  background-image: url(../images/atten.png);
+  background-image: url(../pages/mini_part/images/bg-01.png);
 }
 .bg-grou{
-  background-image: url(../images/abesaudi.jpg);
+  background-image: url(../pages/ground/img/background.jpg);
 }
 .bg-semi{
-  background-image: url(../images/abesaudi.jpg);
+  background-image: url(../pages/mini_part2/img/abessemi.jpg);
 }
 
 .footer {

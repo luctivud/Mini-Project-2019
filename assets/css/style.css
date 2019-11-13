@@ -111,8 +111,8 @@ body > h1, body > p {
 .card {
     position: relative;
     border-radius: 8px;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     top: 0;
     right: 0;
     left: 0;

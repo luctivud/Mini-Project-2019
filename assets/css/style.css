@@ -139,7 +139,7 @@ body > h1, body > p {
 }
 
 .bg-audi{
-  background-image: url(../images/abesaudi.jpg);
+  background-image: url(/assets/images/abesaudi.jpg);
 }
 .bg-atte{
   background-image: url(../pages/mini_part/images/bg-01.png);

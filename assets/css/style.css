@@ -139,7 +139,7 @@ body > h1, body > p {
 }
 
 .bg-audi{
-  background-image: url(/assets/images/abesaudi.jpg);
+  background-image: url(../images/abesaudi.jpg);
 }
 .bg-atte{
   background-image: url(../pages/mini_part/images/bg-01.png);
@@ -147,8 +147,8 @@ body > h1, body > p {
 .bg-grou{
   background-image: url(../pages/ground/img/background.jpg);
 }
-.bg-semi{
-  background-image: url(../pages/mini_part2/img/abessemi.jpg);
+.bg-cant{
+  background-image: url(../images/canteen.jpg);
 }
 
 .footer {
